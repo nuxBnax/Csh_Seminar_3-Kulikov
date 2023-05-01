@@ -12,7 +12,7 @@ string? num = Console.ReadLine();
 System.Console.WriteLine("Is this number a palindrome?");
 if (num!.Length < 5 || num!.Length > 5) 
 {
-    System.Console.WriteLine("Number you have just entered is NOT a five-digit");
+    System.Console.WriteLine("Number you have just entered is NOT a five-digit.");
 }
 else if (num![0] == num![4] && num![1] == num![3])
 {
@@ -20,7 +20,7 @@ else if (num![0] == num![4] && num![1] == num![3])
 }
 else 
 {
-    System.Console.WriteLine("NO, it's not");
+    System.Console.WriteLine("NO, it's not.");
 }
 
 

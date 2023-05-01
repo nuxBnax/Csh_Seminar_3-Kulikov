@@ -14,18 +14,18 @@ int ReadInt(string text)
 }
 
 int[] coordsA = new int[3];
-coordsA[0] = ReadInt("Введите координату Х точки А");
-coordsA[1] = ReadInt("Введите координату Y точки А");
-coordsA[2] = ReadInt("Введите координату Z точки А");
+coordsA[0] = ReadInt("Enter the X coordinate of point A");
+coordsA[1] = ReadInt("Enter the Y coordinate of point A");
+coordsA[2] = ReadInt("Enter the Z coordinate of point A");
 
 int[] coordsB = new int[3];
-coordsB[0] = ReadInt("Введите координату Х точки B");
-coordsB[1] = ReadInt("Введите координату Y точки B");
-coordsB[2] = ReadInt("Введите координату Z точки B");
+coordsB[0] = ReadInt("Enter the X coordinate of point B");
+coordsB[1] = ReadInt("Enter the Y coordinate of point B");
+coordsB[2] = ReadInt("Enter the Z coordinate of point B");
 
 double distance = Math.Sqrt(Math.Pow(coordsA[0] - coordsB[0], 2) + Math.Pow(coordsA[1] - coordsB[1], 2) + Math.Pow(coordsA[2] - coordsB[2], 2));
 
-System.Console.WriteLine(Math.Round(distance, 2));
+System.Console.WriteLine("Distance between points A and B: " + (Math.Round(distance, 2)));
 
 // int[] coordsA = new int[3];
 

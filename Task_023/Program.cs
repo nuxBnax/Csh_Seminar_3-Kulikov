@@ -12,7 +12,7 @@ int ReadInt(string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int num = Math.Abs(ReadInt("Введите целое число: "));
+int num = ReadInt("Enter an integer: ");
 // for (int i = 1; i <= num; i++)
 // {
 //     System.Console.WriteLine($" {Math.Pow(i, 3)}");
